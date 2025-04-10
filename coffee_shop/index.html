@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/leaflet/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/3fb0bac4eb.js" crossorigin="anonymous"></script>
+
+
+    <!--Start of Tawk.to Script-->
+    <script>
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/67eeea1ead425b190d0a9ce7/1inuk51r9';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</head>
+
+<body>
+
+    <div id="mobile-menu">
+        <a id="close-btn" href="#"><img src="img/close-btn.png" alt="close"></a>
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="col-12 text-center">
+                    <nav>
+                        <div>
+                            <a class="text-decoration-none text-uppercase h3" href="#intro-section">about</a>
+                        </div>
+                        <div class="my-3">
+                            <a class="text-decoration-none text-uppercase h3" href="#menu-section">products</a>
+                        </div>
+                        <div class="mb-3">
+                            <a class="text-decoration-none text-uppercase h3" href="#contact-info-section">contact</a>
+                        </div>
+                        <div>
+                            <a class="text-decoration-none text-uppercase h3" href="#map-section">how to find
+                                us?</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <header class="p-3" id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <img id="header-logo" src="img/header-logo.png" alt="coffe shop header logo">
+                </div>
+                <div class="d-none d-md-block col-8 text-right">
+                    <a class="text-decoration-none text-uppercase" href="#">about</a>
+                    <a class="text-decoration-none text-uppercase" href="#">products</a>
+                    <a class="text-decoration-none text-uppercase" href="#">contact</a>
+                    <a class="text-decoration-none text-uppercase" href="#">how to find us?</a>
+                </div>
+                <div class="d-md-none col-8 text-right">
+                    <a id="menu-btn" href="#"><img id="menu-icon" src="img/menu.png" alt="menu"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="hero-section" class="text-light">
+        <div class="container-fluid">
+            <div class="row vh-100 align-items-center pb-5">
+                <div class="col-12 text-center">
+
+                    <h1 class="display-1 font-weight-bold">THE HOME OF COFFEE</h1>
+                    <p class="lead">The perfect cup of coffee – every time. Come and enjoy the aroma of real espresso!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a id="arrow-down" href="#intro-section">
+            <span class="fa-stack fa-2x">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fas fa-chevron-down fa-stack-1x"></i>
+            </span>
+        </a>
+    </section>
+
+
+
+
+
+    <section id="intro-section" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-6 offset-3 text-center py-5">
+                    <h1 class="font-weight-bold">THE BEST COFFEE SHOP</h1>
+                    <p class="text-muted lead">In the heart of the city, our Coffee Shop is a place where coffee lovers
+                        gather to enjoy exquisite aromas and a cozy atmosphere. Every cup we serve is carefully crafted
+                        from the finest beans, with love and dedication to true coffee.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img class="img-fluid py-3" src="img/icon-1.png" alt="coffe shop logo">
+                    <p class="h4 font-weight-bold">BEST BEANS</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-fluid py-3" src="img/icon-2.png" alt="coffe shop logo">
+                    <p class="h4 font-weight-bold">QUALITY MILK</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-fluid py-3" src="img/icon-3.png" alt="coffe shop logo">
+                    <p class="h4 font-weight-bold">PERFECT BLEND</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="about-section">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-12 col-md-5 offset-md-1 p-5 align-self-center">
+                    <h2>GREAT PLACE</h2>
+                    <p class="text-muted lead">Our menu is carefully crafted for all coffee lovers. From classic
+                        espresso to creamy cappuccino – find your favorite drink and enjoy the rich flavor.
+                    </p>
+                    <button class="btn btn-primary">FIND OUT MORE</button>
+                </div>
+                <div class="d-none d-md-block col-md-5 offset-md-1" id="about-bg-1">
+                </div>
+            </div>
+            <div class="row no-gutters align-items-center" id="about-bg-2">
+                <div class="col-6">
+
+                </div>
+                <div class="col-md-6 p-5 text-light">
+                    <h2>FRESH BEANS</h2>
+                    <p class="text-muted lead">"Every cup tells a story. Come and experience the perfect blend of aroma,
+                        flavor, and warmth—because real coffee is not just a drink, it's an experience."
+                    </p>
+                    <button class="btn btn-primary">FIND OUT MORE</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1 class="font-weight-bold">SELECTION FROM OUR MENU</h1>
+                    <p class="text-muted lead">Crafted with passion, every cup and bite is a treat to your senses.
+                        Explore our finest flavors!</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-1.png" alt="coffe shop logo">
+                    <h2 class="my-3">BLACK CAKE</h2>
+                    <p class="lead my-3">A rich, indulgent treat with deep flavors, perfect for pairing with your
+                        favorite coffee.
+                    </p>
+                    <p class="h3">4€</p>
+
+
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-2.png" alt="coffe shop logo">
+                    <h2 class="my-3">BLACK COFFEE</h2>
+                    <p class="lead my-3">Bold, strong, and pure. The perfect choice for those who appreciate the true
+                        essence of coffee.
+                    </p>
+                    <p class="h3">6€</p>
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-3.png" alt="coffe shop logo">
+                    <h2 class="my-3">ESPRESSO</h2>
+                    <p class="lead my-3">A concentrated burst of flavor, rich and full-bodied, for those who love their
+                        coffee strong and intense.
+                    </p>
+                    <p class="h3">6€</p>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-4.png" alt="coffe shop logo">
+                    <h2 class="my-3">LATTE</h2>
+                    <p class="lead my-3">A smooth and creamy blend of espresso and steamed milk, offering a perfect
+                        balance of boldness and sweetness.
+                    </p>
+                    <p class="h3">6€</p>
+
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-5.png" alt="coffe shop logo">
+                    <h2 class="my-3">MACARONS</h2>
+                    <p class="lead my-3">Delightfully crisp on the outside, soft and chewy on the inside, these treats
+                        are the perfect sweet companion to your coffee.
+                    </p>
+                    <p class="h3">3€</p>
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-6.png" alt="coffe shop logo">
+                    <h2 class="my-3">MACCHIATO</h2>
+                    <p class="lead my-3">A bold espresso topped with a touch of steamed milk, offering a perfect balance
+                        of strong flavor and creamy texture.
+                    </p>
+                    <p class="h3">6€</p>
+                </div>
+            </div>
+            <script src="https://form.jotform.com/jsform/250926029876366"></script>
+        </div>
+    </section>
+
+
+
+
+    <section id="contact-info-section">
+        <div class="container-fluid p-0 text-light">
+            <div class="row no-gutters" id="contact-info-bg-1">
+                <div class="col-sm-5 offset-sm-1 p-5">
+                    <h2>YOU ARE WELCOME!</h2>
+                    <p>COME ON IN!</p>
+                    <br>
+                    <h4>WEEKDAYS</h4>
+                    <p>08PM -12AM</p>
+                    <br>
+                    <h4>WEEKENDS</h4>
+                    <p>12 PM – 02 AM</p>
+                </div>
+                <div class="col-sm-6 p-5" id="contact-info-bg-2">
+                    <h2>CONTACT</h2>
+                    <br>
+                    <h4>PHONE</h4>
+                    <p>+(000) 111 222 333</p>
+                    <br>
+                    <h4>MAIL</h4>
+                    <p>address@domain.com</p>
+                    <br>
+                    <h4>ADDRESS</h4>
+                    <p>543 TN, doula street NY, New York</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="map-section">
+        <h2 class="d-none">Our Location</h2>
+        <div id="map"></div>
+    </section>
+
+
+
+    <footer>
+        <div class="container-fluid py-3 text-light">
+            <div class="row">
+                <div class="col-md-5 offset-sm-1 text-left align-self-center">
+                    Coffee Shop | © 2025 All rights reserved - HarisB
+                </div>
+                <div class="col-md-5 text-right">
+                    <a href="#"><img src="img/facebook-icon.png" alt="facebook icon"></a>
+                    <a href="#" class="mx-3"><img src="img/instagram-icon.png" alt="instagram icon"></a>
+                    <a href="#" class="mr-3"><img src="img/twitter-icon.png" alt="twitter icon"></a>
+                    <a href="#"><img src="img/phone-icon.png" alt="phone icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/leaflet.js"></script>
+
+    <script>
+        window.addEventListener("load", function () {
+
+
+            let menuBtn = document.getElementById("menu-btn");
+            let mobileMenu = document.getElementById("mobile-menu");
+            let closeBtn = document.getElementById("close-btn");
+
+            menuBtn.addEventListener("click", function () {
+
+                if (mobileMenu.style.display = "none") {
+                    mobileMenu.style.display = "block";
+                }
+
+            });
+
+            closeBtn.addEventListener("click", function () {
+                if (mobileMenu.style.display = "block") {
+                    mobileMenu.style.display = "none";
+                }
+            });
+
+
+
+            ///jQuery alternativa za otvaranje zatvaranje menija
+
+            $("#menu-btn, #close-btn").click(function () {
+                $("#mobile-menu").toggle();
+            });
+
+
+
+            ////za menu
+
+            let heroSection = document.getElementById("hero-section");
+            let heroSectionHeight = heroSection.clientHeight;
+
+            let header = document.getElementById("header");
+
+
+            document.addEventListener("scroll", function () {
+
+                if (document.documentElement.scrollTop > heroSectionHeight) {
+
+                    if (!header.classList.contains("solid-header")) {
+                        header.classList.add("solid-header");
+                    }
+
+                } else {
+
+                    if (header.classList.contains("solid-header")) {
+                        header.classList.remove("solid-header");
+                    }
+                }
+            });
+
+
+
+
+
+
+            /////za mape
+
+            var myMap = L.map('map', {
+                center: [40.741770, -73.983090],
+                zoom: 17
+            });
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(myMap);
+
+
+            var myIcon = L.icon({
+                iconUrl: 'img/map-icon.png'
+            });
+
+            var marker = L.marker([40.741770, -73.983090], {
+                icon: myIcon
+            }).addTo(myMap);
+
+
+            marker.bindPopup("We are here!");
+
+
+
+
+        });
+    </script>
+
+</body>
+
+</html>
